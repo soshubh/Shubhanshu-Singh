@@ -85,10 +85,10 @@ export default function Home() {
           </nav>
 
          
-          <div className=' text-center p-20 py-10 '>
+          <div className=' text-center py-10 '>
             <h2 className=' text-3xl py-2 text-transparent bg-clip-text font-medium animate-bounce bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-300 via-cyan-500 to-violet-500'> SHUBHANSHU SINGH</h2>
             <h3 className=' text-2xl pt-2 font-normal'> Student, Devloper and Designer</h3>
-            <p className=' text-md pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
+            <p className=' text-xl sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
             A Master of Computer Applications (MCA) student at the National Institute of Technology 
             (NIT) Jamshedpur, India, my areas of interest include web development, UI/UX design, 
             and bot development. I am a highly motivated and diligent individual, constantly seeking
