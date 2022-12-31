@@ -86,9 +86,9 @@ export default function Home() {
 
          
           <div className=' text-center py-10 '>
-            <h2 className=' text-3xl py-2 text-transparent bg-clip-text font-medium animate-bounce bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-300 via-cyan-500 to-violet-500'> SHUBHANSHU SINGH</h2>
-            <h3 className=' text-2xl pt-2 font-normal'> Student, Devloper and Designer</h3>
-            <p className=' text-xl sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
+            <h2 className=' text-3xl sm:text-4xl py-2 text-transparent bg-clip-text font-medium animate-bounce bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-300 via-cyan-500 to-violet-500'> SHUBHANSHU SINGH</h2>
+            <h3 className=' text-2xl sm:text-3xl  p-2 font-normal'> Student, Devloper and Designer</h3>
+            <p className=' text-md sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
             A Master of Computer Applications (MCA) student at the National Institute of Technology 
             (NIT) Jamshedpur, India, my areas of interest include web development, UI/UX design, 
             and bot development. I am a highly motivated and diligent individual, constantly seeking
@@ -115,8 +115,8 @@ export default function Home() {
 
         <section>
           <div className=' text-center p-10 py-10'>
-          <h3 className=' text-2xl pt-3  font-normal'> Work And Project</h3>
-            <p className=' text-md pt-3 leading-7 text-gray-800  mx-w-xl   dark:text-white'>
+          <h3 className=' text-2xl sm:text-3xl  p-2 font-normal'> Work And Project</h3>
+          <p className=' text-md sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
             As a student and aspiring software developer with a focus on web development, bot development, user interface
              design, and game development, I am dedicated to creating innovative and reliable solutions. I have had the
               opportunity to work on a wide range of projects. The following projects are intended to showcase my abilities as a software developer
