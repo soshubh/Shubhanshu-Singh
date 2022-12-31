@@ -107,7 +107,7 @@ export default function Home() {
             
           </div>
 
-          <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden'>
+          <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 sm:w-80 sm:h-80 mt-10 overflow-hidden'>
             <Image src={deved} layout='fill' objectFit='cover'/>
           </div>
 
