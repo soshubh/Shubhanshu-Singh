@@ -114,7 +114,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className=' text-center p-10 py-10'>
+          <div className=' text-center py-10'>
           <h3 className=' text-2xl sm:text-3xl  p-2 font-normal'> Work And Project</h3>
           <p className=' text-md sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
             As a student and aspiring software developer with a focus on web development, bot development, user interface
