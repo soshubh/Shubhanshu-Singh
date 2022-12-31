@@ -134,8 +134,8 @@ export default function Home() {
           <div className='lg:flex gap-10'>
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-10  border border-gray-200 rounded-lg shadow-lg'>
             <Image  src={design} width={100} />
-            <h3 className=' text-lg font-medium pt-8 pb-2'> UI/UX Design</h3>
-            <p className='py-2'>
+            <h3 className=' text-lg font-medium pt-8 pb-2'> Portfolio Website</h3>
+            <p className='py-2' >
             A portfolio presents skills and achievements in [list of areas of expertise]
              with the web technologies, including HTML and vanilla CSS. Vector images 
              ensure that my work is presented in the highest quality on any device.  
