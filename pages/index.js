@@ -14,10 +14,23 @@ import consulting from '../public/consulting.png'
 import { useState } from 'react'
 import { useTheme } from 'next-themes';
 import Document from 'next/document';
-
+import { useEffect } from 'react';
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  useEffect(() => {
+  let path=document.querySelector('#my-path');
+  let pathlength= path.getTotalLength();
+  path.style.strokeDasharray=pathlength+' '+pathlength;
+  path.style.strokeDashoffset=pathlength;
+
+  window.addEventListener('scroll',()=>{
+    var scrollpercent=(document.body.scrollTop+document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight);
+    var draw=pathlength*scrollpercent;
+    path.style.strokeDashoffset=pathlength-draw;
+  })
+  }, []);
+
   const {theme, setTheme} = useTheme(false);
 
   const onButtonClick = () => {
@@ -37,16 +50,7 @@ export default function Home() {
 
 
 
-  // let path=document.querySelector('path');
-  // let pathlength= path.getTotalLength();
-  // path.style.strokeDasharray=pathlength+' '+pathlength;
-  // path.style.strokeDashoffset=pathlength;
-
-  // window.addEventListener('scroll',()=>{
-  //   var scrollpercent=(document.body.scrollTop+document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight);
-  //   var draw=pathlength*scrollpercent;
-  //   path.style.strokeDashoffset=pathlength-draw;
-  // })
+ 
 
   return (
     <div className={theme?'dark:':''}>
@@ -60,13 +64,15 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet"/>
+        <script type="text/javascript" src="./animation.js"></script>
+ 
       </Head>
 
 
 
       <div class="line-container">
         <svg  viewBox="0 0 85 2523" fill="none" className='text:-white' >       
-         <path d="M82.497 0.5L75.4997 884C65.9998 848.5 12.5008 853 8 873.5C3.49919 894 11.4999 904.5 46.4997 911C46.4997 911 82.497 914 75.4997 942C75.4997 942 65.4997 963.5 35.9997 959C35.9997 959 3.49977 959 3.49977 929L3.49977 1035.5L3.49977 1142.5L13.5 1088.5H64.5L75.4997 1035.5L75.4997 1218.5V1257V1295.5C75.4997 1295.5 75.5 1328 38.9998 1328C2.49956 1328 3.49977 1295.5 3.49977 1295.5L3.49977 1218.5L3.49977 1405C3.49977 1405 25 1405 53 1405C81 1405 84.5 1453 38.5 1453C82.5 1453 79.5 1502 53 1505H3.49977L3.49977 1690L16 1634.5H65.5L75.4997 1586.5L75.4997 2528" stroke="url(#paint0_linear_212_5)" stroke-opacity="0.4" stroke-width="5"/>
+         <path id="my-path" d="M82.497 0.5L75.4997 884C65.9998 848.5 12.5008 853 8 873.5C3.49919 894 11.4999 904.5 46.4997 911C46.4997 911 82.497 914 75.4997 942C75.4997 942 65.4997 963.5 35.9997 959C35.9997 959 3.49977 959 3.49977 929L3.49977 1035.5L3.49977 1142.5L13.5 1088.5H64.5L75.4997 1035.5L75.4997 1218.5V1257V1295.5C75.4997 1295.5 75.5 1328 38.9998 1328C2.49956 1328 3.49977 1295.5 3.49977 1295.5L3.49977 1218.5L3.49977 1405C3.49977 1405 25 1405 53 1405C81 1405 84.5 1453 38.5 1453C82.5 1453 79.5 1502 53 1505H3.49977L3.49977 1690L16 1634.5H65.5L75.4997 1586.5L75.4997 2528" stroke="url(#paint0_linear_212_5)" stroke-opacity="0.4" stroke-width="5"/>
          <defs>
          <linearGradient id="paint0_linear_212_5" x1="257" y1="1704" x2="-288" y2="608" gradientUnits="userSpaceOnUse">
          <stop stop-color="#E88EFF" stop-opacity="0.7"/>
