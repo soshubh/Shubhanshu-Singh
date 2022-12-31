@@ -18,18 +18,18 @@ import { useEffect } from 'react';
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  // useEffect(() => {
-  // let path=document.querySelector('#my-path');
-  // let pathlength= path.getTotalLength();
-  // path.style.strokeDasharray=pathlength+' '+pathlength;
-  // path.style.strokeDashoffset=pathlength;
+  useEffect(() => {
+  let path=document.querySelector('#my-path');
+  let pathlength= path.getTotalLength();
+  path.style.strokeDasharray=pathlength+' '+pathlength;
+  path.style.strokeDashoffset=pathlength;
 
-  // window.addEventListener('scroll',()=>{
-  //   var scrollpercent=(document.body.scrollTop+document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight);
-  //   var draw=pathlength*scrollpercent;
-  //   path.style.strokeDashoffset=pathlength-draw;
-  // })
-  // }, []);
+  window.addEventListener('scroll',()=>{
+    var scrollpercent=(document.body.scrollTop+document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight);
+    var draw=pathlength*scrollpercent;
+    path.style.strokeDashoffset=pathlength-draw;
+  })
+  }, []);
 
   const {theme, setTheme} = useTheme(false);
 
