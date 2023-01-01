@@ -132,7 +132,7 @@ export default function Home() {
           </div>
 
           <div className='lg:flex gap-10'>
-          <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-5 border border-gray-200 rounded-lg shadow-lg '>
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={design} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
             <p className='py-1 text-md' >
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
           </div>
 
-           <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-5 border border-gray-200 rounded-lg shadow-lg'>
+           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={code} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
             <p className='py-1 text-md' >
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-5 border border-gray-200 rounded-lg shadow-lg'>
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={consulting} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
             <p className='py-1 text-md' >
