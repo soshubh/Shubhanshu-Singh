@@ -146,11 +146,31 @@ export default function Home() {
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
             </div>
           </div>
 
-           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+            <Image  src={consulting} width={100} />
+            <h3 className='text-xl font-medium pt-5'>NIMCET</h3>
+            <p className='py-1 text-md' >
+            A website designed to provide students with information and resources
+             to help them prepare for the NIMCET exam. Hosted on Glitch and 
+             LogicMonitor to ensure easy access and optimal performance.  
+              
+            </p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>HTML</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
+            <div class="flex mt-4 space-x-3 md:mt-6">
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
+            </div>
+          </div>
+          
+
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={code} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
             <p className='py-1 text-md' >
@@ -164,27 +184,11 @@ export default function Home() {
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
             </div>
           </div>
 
-          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={consulting} width={100} />
-            <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
-            <p className='py-1 text-md' >
-            A portfolio presents skills and achievements in [list of areas of expertise]
-             with the web technologies, including HTML and vanilla CSS. Vector images 
-             ensure that my work is presented in the highest quality on any device.  
-              
-            </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>HTML</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
-            <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
-            </div>
-          </div>
+          
           </div>
         </section>
 
