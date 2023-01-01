@@ -108,7 +108,7 @@ export default function Home() {
           <div className=' text-4xl flex justify-center gap-16 text-gray-400'>
            <a href='https://github.com/soshubh' target={'_blank'}> <AiFillGithub/></a>
            <a href='https://www.linkedin.com/in/shubhanshusinghnit' target={'_blank'}>  <AiFillLinkedin/> </a>
-           <a href='https://instagram.com/so_shubh' target={'_blank'}><AiFillInstagram/></a>
+           <a href='https://www.instagram.com/so_shubh/' target={'_blank'}><AiFillInstagram/></a>
 
             
           </div>
@@ -134,49 +134,55 @@ export default function Home() {
           <div className='lg:flex gap-10'>
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-10  border border-gray-200 rounded-lg shadow-lg'>
             <Image  src={design} width={100} />
-            <h3 className=' text-lg font-medium pt-8 pb-2'> Portfolio Website</h3>
-            <p className='py-2' >
+            <h3 className='text-md sm:text-2xl font-medium pt-8 pb-2'> Portfolio Website</h3>
+            <p className='py-2 text-md sm:text-xl' >
             A portfolio presents skills and achievements in [list of areas of expertise]
              with the web technologies, including HTML and vanilla CSS. Vector images 
              ensure that my work is presented in the highest quality on any device.  
               
             </p>
-            <h4 className='py-3 text-teal-600'> Tools use</h4>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>HTML</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Vanilla CSS</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Vector Images</p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>HTML</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vanilla CSS</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300'>Check Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
             </div>
           </div>
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-10  border border-gray-200 rounded-lg shadow-lg'>
             <Image  src={code} width={100} />
-            <h3 className=' text-lg font-medium pt-8 pb-2'> UI/UX Design</h3>
-            <p className='py-2'>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatum pariatur corporis, dolore obcaecati amet aut labore. Non, odit unde!
+            <h3 className='text-md sm:text-2xl font-medium pt-8 pb-2'> UI/UX Design</h3>
+            <p className='py-2 text-md sm:text-xl' >
+            A portfolio presents skills and achievements in [list of areas of expertise]
+             with the web technologies, including HTML and vanilla CSS. Vector images 
+             ensure that my work is presented in the highest quality on any device.  
+              
             </p>
-            <h4 className='py-3 text-teal-600'> Tools use</h4>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Photoshop</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Figma</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Adobe XD</p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>HTML</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vanilla CSS</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a href="#" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300'>Check Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
             </div>
           </div>
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 my-10  border border-gray-200 rounded-lg shadow-lg'>
             <Image  src={consulting} width={100} />
-            <h3 className=' text-lg font-medium pt-8 pb-2'> UI/UX Design</h3>
-            <p className='py-2'>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatum pariatur corporis, dolore obcaecati amet aut labore. Non, odit unde!
+            <h3 className='text-md sm:text-2xl font-medium pt-8 pb-2'> UI/UX Design</h3>
+            <p className='py-2 text-md sm:text-xl' >
+            A portfolio presents skills and achievements in [list of areas of expertise]
+             with the web technologies, including HTML and vanilla CSS. Vector images 
+             ensure that my work is presented in the highest quality on any device.  
+              
             </p>
-            <h4 className='py-3 text-teal-600'> Tools use</h4>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Photoshop</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Figma</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70'>Adobe XD</p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>HTML</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vanilla CSS</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 '>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a href="#" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300'>Check Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-5 focus:outline-none focus:ring-blue-300'>Check Out</a>
             </div>
           </div>
           </div>
