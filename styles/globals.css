@@ -95,7 +95,148 @@ svg{
   height: 100%; 
 }
 
+.one{
+  /* display: none; */
+  transition: 0.5s;
+  animation: cowmove 4s infinite; 
+}
 
+@keyframes cowmove{
+  0% {
+    transform: translateX(0px) rotateY(-20deg);
+  }
+  49% {
+    transform: translateX(20px) rotateY(20deg);
+  }
+  50% {
+    transform: translateX(20px) rotateY(20deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(-20deg);
+  }
+}
+
+.two{
+  /* display: none; */
+  transition: 0.5s;
+  animation: co 4s infinite; 
+}
+
+@keyframes co{
+  0% {
+    transform: translateX(-10px);
+  }
+  49% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.im1{
+  /* display: none; */
+  transition: 0.5s;
+  animation: im1 4s infinite; 
+}
+
+@keyframes im1{
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+.im2{
+  animation: im2 2s infinite; 
+}
+
+@keyframes im2{
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotateY(50deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+.im3{
+  animation: im3 6s infinite; 
+}
+
+@keyframes im3{
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotateY(360deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+
+.im4{
+  animation: im4 6s infinite; 
+}
+
+@keyframes im4{
+  0% {
+    transform: translateX(0px) rotateX(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotateX(30deg);
+  }
+  100% {
+    transform: translateX(0px) rotateX(0deg);
+  }
+}
+
+.im5{
+  animation: im5 5s infinite; 
+}
+
+@keyframes im5{
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  49% {
+    transform: translateX(0px) rotateY(-40deg);
+  }
+  50% {
+    transform: translateX(0px) rotateY(-40deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+.im6{
+  animation: im6 3s infinite; 
+}
+@keyframes im6{
+  0% {
+    transform: translateX(-10px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(10px) rotateY(0deg);
+  }
+  100% {
+    transform: translateX(-10px) rotateY(0deg);
+  }
+}
 
 
 /* 

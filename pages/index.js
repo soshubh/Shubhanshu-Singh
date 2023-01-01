@@ -89,7 +89,7 @@ export default function Home() {
         <section className='min-h-screen'>
 
           <nav className=' py-10 mb-12 flex justify-between'>
-             <BsFillMoonStarsFill onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' cursor-pointer text-2xl sm:text-3xl'/>
+             <BsFillMoonStarsFill  onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' one cursor-pointer text-2xl sm:text-3xl'/>
               <a href="#" className='bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-500 via-cyan-600 to-violet-500 text-white px-4 p-2 sm:text-xl rounded-md' onClick={onButtonClick}>Resume</a>
           </nav>
 
@@ -109,13 +109,13 @@ export default function Home() {
 
             
           <div className=' text-4xl flex justify-center gap-16 text-gray-400'>
-           <a href='https://github.com/soshubh' target={'_blank'}> <AiFillGithub/></a>
-           <a href='https://www.linkedin.com/in/shubhanshusinghnit' target={'_blank'}>  <AiFillLinkedin/> </a>
-           <a href='https://www.instagram.com/so_shubh/' target={'_blank'}><AiFillInstagram/></a>
+           <a href='https://github.com/soshubh' target={'_blank'}> <AiFillGithub class="two"/></a>
+           <a href='https://www.linkedin.com/in/shubhanshusinghnit' target={'_blank'}>  <AiFillLinkedin class="two"/> </a>
+           <a href='https://www.instagram.com/so_shubh/' target={'_blank'}><AiFillInstagram class="two"/></a>
 
             
           </div>
-
+                             {/* bg-gradient-to-b from-teal-500 */}
           <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 sm:w-80 sm:h-80 mt-10 overflow-hidden'>
             <Image src={deved} layout='fill' objectFit='cover'/>
           </div>
@@ -136,7 +136,7 @@ export default function Home() {
 
           <div className='lg:grid grid-cols-3 gap-10'>
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={design} width={100} />
+            <Image class="im1" src={design} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
             <p className='py-2 text-md' >
             A portfolio presents skills and achievements in [list of areas of expertise]
@@ -155,7 +155,7 @@ export default function Home() {
 
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={consulting} width={100} />
+            <Image class="im2" src={consulting} width={100} />
             <h3 className='text-xl font-medium pt-5'>NIMCET</h3>
             <p className='py-2 text-md' >
             A website designed to provide students with information and resources
@@ -174,7 +174,7 @@ export default function Home() {
 
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={tele} width={100} />
+            <Image class="im3" src={tele} width={100} />
             <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
             <p className='py-2 text-md' >
             A Telegram bot for NIT Jamshedpur students, coded in Python and 
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
 
           <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={ptele} width={100} />
+            <Image class="im4" src={ptele} width={100} />
             <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
             <p className='py-2 text-md' >
             A Telegram bot coded in Python and hosted on Replit for
@@ -210,8 +210,8 @@ export default function Home() {
             </div>
           </div>
 
-                    <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={discord} width={100} />
+            <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+            <Image class="im5" src={discord} width={100} />
             <h3 className='text-xl font-medium pt-5'>Discord Bot</h3>
             <p className='py-2 text-md' >
             A Discord bot coded in Node.js and hosted on Replit for use
@@ -230,7 +230,7 @@ export default function Home() {
           </div>
 
           <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={ui} width={100} />
+            <Image class="im6" src={ui} width={100} />
             <h3 className='text-xl font-medium pt-5'>Social App UI</h3>
             <p className='py-2 text-md' >
             A social media app with a well-designed UI/UX can greatly
