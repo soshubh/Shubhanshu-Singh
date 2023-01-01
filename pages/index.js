@@ -146,7 +146,7 @@ export default function Home() {
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
             </div>
           </div>
 
@@ -165,10 +165,10 @@ export default function Home() {
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
+            <a target="_blank" href="https://how-to-not-do-nimct.glitch.me/" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
             </div>
           </div>
-          
+
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={code} width={100} />
@@ -184,7 +184,7 @@ export default function Home() {
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check-Out</a>
+            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
             </div>
           </div>
 
