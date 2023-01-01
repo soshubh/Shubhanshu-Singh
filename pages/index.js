@@ -138,13 +138,13 @@ export default function Home() {
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={design} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A portfolio presents skills and achievements in [list of areas of expertise]
              with the web technologies, including HTML and vanilla CSS. Vector images 
              ensure that my work is presented in the highest quality on any device.  
               
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>HTML</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
@@ -157,13 +157,13 @@ export default function Home() {
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={consulting} width={100} />
             <h3 className='text-xl font-medium pt-5'>NIMCET</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A website designed to provide students with information and resources
              to help them prepare for the NIMCET exam. Hosted on Glitch and 
              LogicMonitor to ensure easy access and optimal performance.  
               
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>HTML</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
@@ -176,12 +176,12 @@ export default function Home() {
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={tele} width={100} />
             <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A Telegram bot for NIT Jamshedpur students, coded in Python and 
             hosted on Replit. Provides information about courses, application
              process, admission requirements, and events.
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Python</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
@@ -190,10 +190,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+          <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={ptele} width={100} />
             <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A Telegram bot coded in Python and hosted on Replit for
              personal use could be a useful tool for users who want
               help and support from the developer of the bot. The bot
@@ -201,7 +201,7 @@ export default function Home() {
                 users who have questions or need support with the bot
                  or its features.
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Python</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
@@ -210,18 +210,17 @@ export default function Home() {
             </div>
           </div>
 
-                    <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+                    <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={discord} width={100} />
             <h3 className='text-xl font-medium pt-5'>Discord Bot</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A Discord bot coded in Node.js and hosted on Replit for use
              on the NIT Jamshedpur official Discord server could be a 
              useful tool for moderating and enhancing the user experience
               on the server. The bot could be designed to play music,
-               moderate conversations, and make announcements to keep
-                users informed and engaged.
+               moderate conversations, and make announcements.
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Node.js</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
@@ -230,17 +229,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+          <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={ui} width={100} />
             <h3 className='text-xl font-medium pt-5'>Social App UI</h3>
-            <p className='py-1 text-md' >
+            <p className='py-2 text-md' >
             A social media app with a well-designed UI/UX can greatly
              enhance the user experience and make the app more enjoyable
               and easy to use. A UI/UX created and prototyped on Figma 
-              could be an effective way to visualize and test the design
-               of the app before it is built.
+              could be an effective way to visualize and test the design 
+              of the app before it is built.
             </p>
-            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <h4 className=' text-teal-600 text-md sm:text-xl'> Tools use</h4>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Figma</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Prototype</p>
             <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Export</p>
