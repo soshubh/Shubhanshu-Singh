@@ -189,18 +189,18 @@ svg{
 
 
 .im4{
-  animation: im4 6s infinite; 
+  animation: im4 4s infinite; 
 }
 
 @keyframes im4{
   0% {
-    transform: translateX(0px) rotateX(0deg);
+    transform: translateX(-10px) rotateX(-30deg);
   }
   50% {
-    transform: translateX(0px) rotateX(30deg);
+    transform: translateX(10px) rotateX(30deg);
   }
   100% {
-    transform: translateX(0px) rotateX(0deg);
+    transform: translateX(-10px) rotateX(-30deg);
   }
 }
 

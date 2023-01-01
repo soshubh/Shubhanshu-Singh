@@ -89,7 +89,7 @@ export default function Home() {
         <section className='min-h-screen'>
 
           <nav className=' py-10 mb-12 flex justify-between'>
-             <BsFillMoonStarsFill  onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' one cursor-pointer text-2xl sm:text-3xl'/>
+             <BsFillMoonStarsFill  onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' one cursor-pointer text-2xl sm:text-3xl pt-3'/>
               <a href="#" className='bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-500 via-cyan-600 to-violet-500 text-white px-4 p-2 sm:text-xl rounded-md' onClick={onButtonClick}>Resume</a>
           </nav>
 
