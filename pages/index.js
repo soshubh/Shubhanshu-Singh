@@ -68,7 +68,7 @@ export default function Home() {
  
       </Head>
 
-      <main className=' bg-gray-300 px-10 md:px-20 lg:px-40A  dark:bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black overflow-hidden'>
+      <main className=' bg-gray-300 px-10 md:px-20 lg:px-40 dark:bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black overflow-hidden'>
      
       <div class="line-container">
         <svg  viewBox="0 0 85 2523" fill="none" className='text:-white' >       
@@ -84,9 +84,9 @@ export default function Home() {
 
         <section className='min-h-screen'>
 
-          <nav className=' py-10 sm:p-20 mb-12 flex justify-between'>
-             <BsFillMoonStarsFill onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' cursor-pointer text-2xl sm:text-3xl py-2'/>
-              <a href="#" className='bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-500 via-cyan-600 to-violet-500 text-white px-4 p-2 sm:text-xl rounded-md ml-8' onClick={onButtonClick}>Resume</a>
+          <nav className=' py-10 mb-12 flex justify-between'>
+             <BsFillMoonStarsFill onClick = {() => setTheme(theme === 'dark'?'light':'dark')} className=' cursor-pointer text-2xl sm:text-3xl'/>
+              <a href="#" className='bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-500 via-cyan-600 to-violet-500 text-white px-4 p-2 sm:text-xl rounded-md' onClick={onButtonClick}>Resume</a>
           </nav>
 
          
