@@ -8,8 +8,12 @@ import {
   AiFillGithub} from 'react-icons/ai';
 import Image from 'next/image'
 import deved from '../public/op.png'
-import design from '../public/design.png'
+import design from '../public/business.png'
 import code from '../public/code.png'
+import tele from '../public/Telegram.png'
+import ptele from '../public/ptele.png'
+import discord from '../public/discord.png'
+import ui from '../public/UI.png'
 import consulting from '../public/consulting.png'
 import { useState } from 'react'
 import { useTheme } from 'next-themes';
@@ -130,7 +134,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='lg:flex gap-10'>
+          <div className='lg:grid grid-cols-3 gap-10'>
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
             <Image  src={design} width={100} />
             <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
@@ -170,22 +174,80 @@ export default function Home() {
 
 
           <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-            <Image  src={code} width={100} />
-            <h3 className='text-xl font-medium pt-5'> Portfolio Website</h3>
+            <Image  src={tele} width={100} />
+            <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
             <p className='py-1 text-md' >
-            A portfolio presents skills and achievements in [list of areas of expertise]
-             with the web technologies, including HTML and vanilla CSS. Vector images 
-             ensure that my work is presented in the highest quality on any device.  
-              
+            A Telegram bot for NIT Jamshedpur students, coded in Python and 
+            hosted on Replit. Provides information about courses, application
+             process, admission requirements, and events.
             </p>
             <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>HTML</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
-            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Python</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
             <div class="flex mt-4 space-x-3 md:mt-6">
-            <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+            <a target="_blank" href="https://t.me/nitjamshedpurbot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
             </div>
           </div>
+
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+            <Image  src={ptele} width={100} />
+            <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
+            <p className='py-1 text-md' >
+            A Telegram bot coded in Python and hosted on Replit for
+             personal use could be a useful tool for users who want
+              help and support from the developer of the bot. The bot
+               could be designed to provide assistance and guidance to
+                users who have questions or need support with the bot
+                 or its features.
+            </p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Python</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
+            <div class="flex mt-4 space-x-3 md:mt-6">
+            <a target="_blank" href="https://t.me/so_shubh_bot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+            </div>
+          </div>
+
+                    <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+            <Image  src={discord} width={100} />
+            <h3 className='text-xl font-medium pt-5'>Discord Bot</h3>
+            <p className='py-1 text-md' >
+            A Discord bot coded in Node.js and hosted on Replit for use
+             on the NIT Jamshedpur official Discord server could be a 
+             useful tool for moderating and enhancing the user experience
+              on the server. The bot could be designed to play music,
+               moderate conversations, and make announcements to keep
+                users informed and engaged.
+            </p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Node.js</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
+            <div class="flex mt-4 space-x-3 md:mt-6">
+            <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=920213432739967008&permissions=70282305&scope=bot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+            </div>
+          </div>
+
+          <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
+            <Image  src={ui} width={100} />
+            <h3 className='text-xl font-medium pt-5'>Social App UI</h3>
+            <p className='py-1 text-md' >
+            A social media app with a well-designed UI/UX can greatly
+             enhance the user experience and make the app more enjoyable
+              and easy to use. A UI/UX created and prototyped on Figma 
+              could be an effective way to visualize and test the design
+               of the app before it is built.
+            </p>
+            <h4 className='p-2 text-teal-600 text-md sm:text-xl'> Tools use</h4>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Figma</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Prototype</p>
+            <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Export</p>
+            <div class="flex mt-4 space-x-3 md:mt-6">
+            <a target="_blank" href="https://t.me/nitjamshedpurbot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+            </div>
+          </div>          
 
           
           </div>
