@@ -239,6 +239,10 @@ svg{
 }
 
 
+.form-bg-opacity {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 /* 
 @media (prefers-color-scheme: dark) {
   html {
