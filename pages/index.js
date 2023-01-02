@@ -100,7 +100,7 @@ export default function Home() {
           <div className=' text-center py-10 '>
             <h2 className=' text-3xl sm:text-4xl py-2 text-transparent bg-clip-text font-medium animate-bounce bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-cyan-300 via-cyan-500 to-violet-500'> SHUBHANSHU SINGH</h2>
             <h3 className=' text-2xl sm:text-3xl  p-2 font-normal'> Student, Devloper and Designer</h3>
-            <p className=' text-md sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
+            <p className=' text-md sm:text-xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' class="tt">
             A Master of Computer Applications (MCA) student at the National Institute of Technology 
             (NIT) Jamshedpur, India, my areas of interest include web development, UI/UX design, 
             and bot development. I am a highly motivated and diligent individual, constantly seeking
@@ -128,7 +128,7 @@ export default function Home() {
            <section>
               <div className=' text-center py-10'>
               <h3 className=' text-2xl sm:text-3xl  p-2 font-normal'> Work And Project</h3>
-              <p className=' text-md sm:text-2xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' >
+              <p className=' text-md sm:text-xl pt-5 leading-7 text-gray-800 mx-w-xl  dark:text-white' >
                 As a student and aspiring software developer with a focus on web development, bot development, user interface
                  design, and game development, I am dedicated to creating innovative and reliable solutions. I have had the
                   opportunity to work on a wide range of projects. The following projects are intended to showcase my abilities as a software developer
@@ -150,7 +150,7 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vector Images</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://shubhanshusingh.live" className='inline-flex font-light items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Vanilla CSS</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://how-to-not-do-nimct.glitch.me/" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://how-to-not-do-nimct.glitch.me/" className='inline-flex font-light items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>
 
@@ -186,7 +186,7 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://t.me/nitjamshedpurbot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://t.me/nitjamshedpurbot" className='inline-flex font-light  items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>
 
@@ -206,7 +206,7 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://t.me/so_shubh_bot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://t.me/so_shubh_bot" className='inline-flex font-light items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>
 
@@ -225,7 +225,10 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>JavaScript</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Replit</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=920213432739967008&permissions=70282305&scope=bot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=920213432739967008&permissions=70282305&scope=bot"
+                  className='inline-flex font-light  items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg 
+                   bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600
+                    hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>
  
@@ -244,7 +247,10 @@ export default function Home() {
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Prototype</p>
                 <p className='text-gray-800 py1 dark:text-white opacity-70 text-md'>Export</p>
                  <div class="flex mt-4 space-x-3 md:mt-6">
-                 <a target="_blank" href="https://t.me/nitjamshedpurbot" className='inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
+                 <a target="_blank" href="https://www.figma.com/proto/BER4LIkHMHwebRGU5gtNvH/Untitled-(Copy)?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=42%3A2"
+                  className='inline-flex font-light  items-center px-4 py-2 text-sm font-medium
+                   text-center text-white rounded-lg  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]
+                    from-blue-800 to-blue-600 hover:from-blue-600 hover:to-blue-800 '>Check Out</a>
                  </div>
               </div>                  
             </div>

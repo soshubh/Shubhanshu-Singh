@@ -103,7 +103,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="fullname"
-            className="text-gray-500 font-light mt-8 dark:text-gray-50"
+            className="text-black  font-light mt-8 dark:text-gray-50 "
           >
             Full name<span className="text-red-500 dark:text-gray-50">*</span>
           </label>
@@ -114,7 +114,7 @@ export default function ContactUs() {
               setFullname(e.target.value);
             }}
             name="fullname"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b border-gray-900 dark:border-gray-400 py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
           {errors?.fullname && (
             <p className="text-red-500">Fullname cannot be empty.</p>
@@ -122,7 +122,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="email"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-black font-light mt-4 dark:text-gray-50"
           >
             E-mail<span className="text-red-500  dark:text-gray-50">*</span>
           </label>
@@ -133,7 +133,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b border-gray-900 dark:border-gray-400 py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
           {errors?.email && (
             <p className="text-red-500">Email cannot be empty.</p>
@@ -141,7 +141,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="subject"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-black font-light mt-4 dark:text-gray-50"
           >
             Subject<span className="text-red-500  dark:text-gray-50">*</span>
           </label>
@@ -152,14 +152,14 @@ export default function ContactUs() {
             onChange={(e) => {
               setSubject(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b border-gray-900 dark:border-gray-400 py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
           {errors?.subject && (
             <p className="text-red-500">Subject cannot be empty.</p>
           )}
           <label
             htmlFor="message"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-black font-light mt-4 dark:text-gray-50"
           >
             Message<span className="text-red-500  dark:text-gray-50">*</span>
           </label>
@@ -169,7 +169,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b border-gray-900 dark:border-gray-400 py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           ></textarea>
           {errors?.message && (
             <p className="text-red-500">Message body cannot be empty.</p>
@@ -177,7 +177,7 @@ export default function ContactUs() {
           <div className="flex flex-row items-center justify-start">
             <button
               type="submit"
-              className="px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+              className="px-5 gap-1 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
             >
               {buttonText}
               <svg
@@ -236,7 +236,9 @@ export default function ContactUs() {
                 fill="currentColor"
               />
             </svg>
-            <p className="text-gray-500 font-light">+91 914038 6605 </p>
+            <p className="text-gray-500 font-light">
+              <a target="_blank" href="https://wa.me/919140386605?text=Hey!%20Shubh%20I%20got%20your%20number%20from%20website."> +91 914038 6605 </a>
+            </p>
           </div>
           <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
             <svg
@@ -254,7 +256,7 @@ export default function ContactUs() {
               />
             </svg>
             <p className="text-gray-500 font-light">
-              workforshubhsingh.com
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=workforshubhsingh@gmail.com" target="_blank"> workforshubhsingh@gmail.com</a> 
             </p>
           </div>
           <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
@@ -277,7 +279,7 @@ export default function ContactUs() {
               />
             </svg>
             <p className="text-gray-500 font-light">
-              Lucknow, Uttar Pradesh, India
+             <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh,+India " target="_blank"> Lucknow, Uttar Pradesh, India </a>
             </p>
           </div>
         </div>
