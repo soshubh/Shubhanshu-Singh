@@ -75,7 +75,7 @@ export default function Home() {
  
       </Head>
 
-      <main className=' bg-gray-300 px-10 md:px-20 lg:px-40 dark:bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black overflow-hidden'>
+      <main className=' bg-gray-50 px-10 md:px-20 lg:px-40 dark:bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black overflow-hidden'>
      
         <div class="line-container">
           <svg  viewBox="0 0 85 2523" fill="none" className='text:-white' >       
@@ -174,8 +174,8 @@ export default function Home() {
               </div>
 
               <div className=' flex flex-col items-center text-center  p-10 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
-                <Image class="im3" alt='a' src={tele} width={100} />~
-                <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
+                <Image class="im3" alt='a' src={tele} width={100} />
+                <h3 className='text-xl font-medium pt-5'>NIT Jamshedput Bot</h3>
                 <p className='py-2 text-md' >
                 A Telegram bot for NIT Jamshedpur students, coded in Python and 
                 hosted on Replit. Provides information about courses, application
@@ -192,7 +192,7 @@ export default function Home() {
 
               <div className=' flex flex-col items-center text-center  p-5 rounded-10 mb-10 border border-gray-200 rounded-lg shadow-2xl'>
                 <Image class="im4" alt='a' src={ptele} width={100} />
-                <h3 className='text-xl font-medium pt-5'>Telegram Bot</h3>
+                <h3 className='text-xl font-medium pt-5'>SOSHUBH Bot</h3>
                 <p className='py-2 text-md' >
                 A Telegram bot coded in Python and hosted on Replit for
                  personal use could be a useful tool for users who want

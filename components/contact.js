@@ -177,7 +177,9 @@ export default function ContactUs() {
           <div className="flex flex-row items-center justify-start">
             <button
               type="submit"
-              className="px-5 gap-1 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+              className="px-5 gap-1 mt-8 py-2 
+              bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]
+              from-blue-900 to-[#130F49] hover:from-[#130F49] hover:to-blue-900  text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
             >
               {buttonText}
               <svg
@@ -210,7 +212,7 @@ export default function ContactUs() {
       </header>
       <section className="">
         <h1
-          className={`text-4xl font-bold text-center my-20 gradient-text text-gray-700 `}
+          className={`text-4xl font-bold text-center my-20 gradient-text text-gray-700 text-opacity-50 `}
         >
           Reach out
         </h1>
