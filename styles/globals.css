@@ -98,7 +98,7 @@ svg{
 .one{
   /* display: none; */
   transition: 0.5s;
-  animation: cowmove 4s infinite; 
+  /* animation: cowmove 4s infinite;  */
 }
 
 @keyframes cowmove{
@@ -119,7 +119,7 @@ svg{
 .two{
   /* display: none; */
   transition: 0.5s;
-  animation: co 4s infinite; 
+  /* animation: co 4s infinite;  */
 }
 
 @keyframes co{
