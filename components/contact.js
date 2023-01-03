@@ -242,6 +242,9 @@ export default function ContactUs() {
               <a target="_blank" href="https://wa.me/919140386605?text=Hey!%20Shubh%20I%20got%20your%20number%20from%20website."> +91 914038 6605 </a>
             </p>
           </div>
+
+
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=workforshubhsingh@gmail.com" target="_blank"> 
           <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
             <svg
               width="24"
@@ -258,9 +261,15 @@ export default function ContactUs() {
               />
             </svg>
             <p className="text-gray-500 font-light">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=workforshubhsingh@gmail.com" target="_blank"> workforshubhsingh@gmail.com</a> 
+            workforshubhsingh@gmail.com
             </p>
           </div>
+          </a>
+
+
+
+          <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh,+India " target="_blank"> 
+        
           <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
             <svg
               width="24"
@@ -281,9 +290,10 @@ export default function ContactUs() {
               />
             </svg>
             <p className="text-gray-500 font-light">
-             <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh,+India " target="_blank"> Lucknow, Uttar Pradesh, India </a>
+             Lucknow, Uttar Pradesh, India
             </p>
-          </div>
+            
+          </div></a>
         </div>
       </section>
     </main>
